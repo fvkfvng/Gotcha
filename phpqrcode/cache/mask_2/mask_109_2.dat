@@ -1,0 +1,2 @@
+modify=20210203125421;perm=flcdmpe;type=pdir;unique=804U35816A4;UNIX.group=1060;UNIX.groupname=ftp;UNIX.mode=0755;UNIX.owner=1058;UNIX.ownername=ftp; ..
+modify=20210203125421;perm=flcdmpe;type=cdir;unique=804U35816AE;UNIX.group=1060;UNIX.groupname=ftp;UNIX.mode=0755;UNIX.owner=1058;UNIX.ownername=ftp; .

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../vendors/mocha/mocha.css" />
+
+<div id="mocha"></div>
+<script src="../vendors/mocha/mocha.js"></script>
+<script src="../vendors/chai/chai.js"></script>
+<script src="../vendors/sinon/pkg/sinon-1.9.1.js"></script>
+<script src="../dist/dropzone.js"></script>
+
+<script>
+  mocha.ui('bdd'); 
+  mocha.reporter('html');
+  expect = chai.expect;
+  chai.should();
+</script>
+<script src="test.js"></script>
+
+<script>
+  if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+  else { mocha.run(); }
+</script>
